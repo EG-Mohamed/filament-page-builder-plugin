@@ -1,1 +1,18 @@
-@import '../../vendor/filament/filament/resources/css/theme.css';
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --color-primary-50: oklch(0.98 0.02 257.29);
+    --color-primary-100: oklch(0.95 0.04 257.29);
+    --color-primary-200: oklch(0.89 0.09 257.29);
+    --color-primary-300: oklch(0.81 0.15 257.29);
+    --color-primary-400: oklch(0.71 0.21 257.29);
+    --color-primary-500: oklch(0.61 0.25 257.29);
+    --color-primary-600: oklch(0.54 0.25 257.29);
+    --color-primary-700: oklch(0.45 0.21 257.29);
+    --color-primary-800: oklch(0.38 0.17 257.29);
+    --color-primary-900: oklch(0.33 0.13 257.29);
+    --color-primary-950: oklch(0.22 0.09 257.29);
+}

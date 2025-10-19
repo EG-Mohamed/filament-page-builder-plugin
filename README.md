@@ -52,7 +52,7 @@ This FilamentPHP plugin is aimed at allowing you to seamlessly integrate page bu
 
 - PHP 8.1 or higher
 - Laravel 10.x or higher
-- Filament 3.x
+- Filament 4.x
 
 You can install the package via composer:
 
